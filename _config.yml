@@ -1,3 +1,23 @@
+############################
+# --- Required options --- #
+############################
+
+# Name of website
+title: willeke.dev
+
+# Your name to show in the footer
+author: Jim Willeke
+
+###############################################
+# --- List of links in the navigation bar --- #
+###############################################
+
+navbar-links:
+  About Me: "aboutme"
+  Author's home: "https://jim.willeke.com"
+
+
 remote_theme: pages-themes/slate@v0.2.0
 plugins:
-- jekyll-remote-theme 
+  - jekyll-paginate
+  - jekyll-sitemap
